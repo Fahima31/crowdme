@@ -1,0 +1,464 @@
+/*
+Author Name:;
+Mail Address:;
+Site url:;
+GPL license:3.4.1;
+*/
+
+/*
+====Index====
+1. Header
+2. Home
+3. How it work
+4. Discover a project
+5. Blog
+6. Fing out more
+7. Footer
+*/
+
+/* Global css*/
+body{
+  font-family: 'Open Sans', sans-serif;
+}
+
+h1{
+  font-size: 50px;
+  color: #FFFFFF;
+}
+h2{
+  font-size: 35px;
+  color: #FFFFFF;
+  
+}
+h3{
+  font-size: 18px;
+  color: #747474;
+  line-height: 30px;
+  text-align: center;
+
+}
+h4{
+  font-size: 24px;
+  color: #4C4C4C;
+}
+h5{
+  font-size: 32px;
+  color: #515151;
+  padding-bottom: 30px;
+  line-height: 50px;
+}
+h6{
+  font-size: 13px;
+  color: #747474;
+  line-height: 30px;
+  text-align: center;
+}
+p{
+  font-size: 15px;
+  color: #31353e;
+  line-height: 30px;
+}
+.cstm-btn-one{
+   background-color: #8FC63D;
+   font-size: 20px;
+   color: #fff;
+   display: block;
+   margin: 0 auto;
+   padding: 7px 32px;
+   border-radius: 8px;
+   border: navajowhite;
+}
+
+.cstm-btn-two{
+   background-color: #fff;
+   font-size: 15px;
+   color: #31353e;
+   display: block;
+   margin: 40px auto;
+   padding: 7px 32px;
+   border-radius: 25px;
+   border: navajowhite;
+}
+.cstm-btn-three{
+    background-color: #ADD136;
+    border: none;
+    padding: 7px 26px;
+    border-radius: 8px;
+    font-size: 15px;
+    color: #fff;
+}
+.cstm-btn-four{
+    background-color: #26A6D1;
+    border: none;
+    padding: 7px 26px;
+    border-radius: 8px;
+    font-size: 15px;
+    color: #fff;
+}
+.cstm-btn-five{
+    background-color: #484B6F;
+    border: none;
+    padding: 6px 26px;
+    border-radius: 25px;
+    font-size: 15px;
+    color: #fff;
+}
+.cstm-btn-six{
+    background-color: transparent;
+    border: 1px solid #919191;
+    padding: 6px 26px;
+    border-radius: 8px;
+    font-size: 15px;
+    color: #919191;
+}
+.cstm-btn-seven{
+    background-color:#26A6D1;
+    border: none;
+    padding: 3px 12px;
+    border-radius: 5px;
+    font-size: 13px;
+    color:#fff;
+    width: 42%;
+    position: absolute;
+    top: 208px;
+    left: 193px;
+
+}
+/* Theme css*/
+
+/* header section */
+.nav-head{
+	background-color: #FFFFFF;
+	padding: 25px 0px;
+}
+.nav-link{
+	font-size: 14px;
+	color: #A2A2A2!important;
+}
+.nav-link.js-scroll-trigger.active{
+	background-color: #99C50A;
+	color: #fff!important;
+	padding: 7px 18px;
+	border-radius: 10px;
+}
+
+/* hero section */
+.hero{
+	background: url(../img/banner.png)no-repeat center top;
+	background-size: cover;
+	padding-bottom: 130px;
+
+}
+.hero-title{
+	padding-top: 160px;
+	text-align: center;
+	padding-bottom: 160px;
+}
+.hero-content{
+  padding-top: 90px;
+  position: relative;
+}
+.hero-content:before{
+  content: '';
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top:0%;
+  background: rgb(0, 0, 0, 0.2);
+}
+
+/* our product section */
+.product{
+	background-color: #FFFFFF;
+}
+.product-img{
+	padding-top: 95px;
+	padding-bottom: 50px;
+	text-align: center;
+}
+.product-item-one{
+	padding-top: 30px;
+	text-align: center;
+}
+/* newsletter section */
+.find{
+}
+.find-left{
+	background-color: #E2F8FF;
+}
+.find-img{
+    padding-top: 40px;
+    padding-bottom: 46px;
+}
+.find-content{
+    padding-top: 40px;
+    padding-bottom: 46px;
+}
+.find-right{
+  background-color: #F5F9EB; 
+}
+
+/* feature section*/
+.feature{
+}
+.feature-left{
+}
+/* brand section*/
+.brand{
+}
+.brand-details{
+	text-align: center;
+  padding-top: 30px;
+}
+
+/* gallery section*/
+.gallery{
+  
+}
+
+.card{
+  text-align: center;
+  position: relative;
+}
+.card-body{
+
+}
+.card-body a{
+  color: #4C4C4C;
+}
+.card-link-left{
+  float:left;
+  color: #4C4C4C;
+}
+.card-link-right{
+  float: right;
+  color: #4C4C4C;
+}
+.card-link-bottom{
+  float: right;
+}
+
+.fa.fa-caret-right{
+  color: #ADD136;
+}
+/* footer section*/
+footer{
+	
+}
+
+.footer-title{
+	text-align: center;
+	padding-bottom: 50px;
+  color:  #747474;
+}
+.hr{  
+}
+
+/*media query*/
+/* Small devices (portrait tablets and large phones) */
+@media (min-width: 320px) and (max-width: 500px){
+	
+.hero-title{
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+
+.hero-title{
+	padding-top: 50px;
+	text-align: center;
+}
+h1{
+  font-size: 30px;
+  color: #FFFFFF;
+}
+h2{
+  font-size: 30px;
+  color: #FFFFFF;
+  
+}
+.cstm-btn-one{
+   background-color: #2D2E46;
+   font-size: 13px; 
+}
+
+.product-img{
+  padding-top: 30px;
+  padding-bottom: 30px;
+  
+}
+.product-item-one{
+  padding-top: 10px;
+  
+}
+.find-img{
+    padding-top: 20px;
+    padding-bottom: 26px;
+}
+.find-content{
+    padding-top: 20px;
+    padding-bottom: 26px;
+}
+
+.cstm-btn-four{
+    font-size: 11px;
+    
+}
+.cstm-btn-three{
+    font-size: 11px;
+    
+}
+h5{
+  font-size: 20px;
+  color: #515151;
+  padding-bottom: 15px;
+  line-height: 30px;
+}
+p{
+  font-size: 12px;
+  color: #31353e;
+  line-height: 20px;
+}
+.cstm-btn-three{
+    top: 82%;
+    right: 2%;
+    
+}
+.find-img{
+    width: 40%;
+    padding-top: 5px;
+    padding-bottom: 10px;
+  
+}
+.find-content{
+  width: 50%;
+    padding-top: 10px;
+    padding-bottom: 5px;
+  
+}
+.brand-details{
+  padding-top: 5px;
+  width: 20%;
+}
+.nav-head{
+  
+}
+.card{
+  text-align: center;
+  position: relative;
+}
+.cstm-btn-seven{
+    width: 40%;
+    font-size: 10px;
+    top: 170px;
+    left: 140px;
+}
+}
+/* Medium devices (landscape tablets, 768px and up) */
+@media (min-width: 501px) and (max-width: 769px){
+.hero-title{
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+
+.hero-title{
+  padding-top: 50px;
+  text-align: center;
+}
+h1{
+  font-size: 30px;
+  color: #FFFFFF;
+}
+h2{
+  font-size: 30px;
+  color: #FFFFFF;
+  
+}
+.cstm-btn-one{
+   font-size: 13px; 
+}
+
+.product-img{
+  padding-top: 30px;
+  padding-bottom: 30px;
+  
+}
+.product-item-one{
+  padding-top: 10px;
+  
+}
+.find-img{
+    padding-top: 20px;
+    padding-bottom: 26px;
+}
+.find-content{
+    padding-top: 20px;
+    padding-bottom: 26px;
+}
+
+.cstm-btn-four{
+    font-size: 11px;
+    
+}
+.cstm-btn-three{
+    font-size: 11px;
+    
+}
+h5{
+  font-size: 20px;
+  color: #515151;
+  padding-bottom: 15px;
+  line-height: 30px;
+}
+p{
+  font-size: 12px;
+  color: #31353e;
+  line-height: 20px;
+}
+.cstm-btn-three{
+    top: 82%;
+    right: 2%;
+    
+}
+.find-img{
+    width: 40%;
+    padding-top: 5px;
+    padding-bottom: 10px;
+  
+}
+.find-content{
+  width: 50%;
+    padding-top: 10px;
+    padding-bottom: 5px;
+  
+}
+.brand-details{
+  text-align: center;
+  padding-top: 10px;
+  width: 40%;
+}
+.card{
+  text-align: center;
+  position: relative;
+}
+.cstm-btn-seven{
+    width: 30%;
+    font-size: 11px;
+    top: 320px;
+    left: 300px;
+}
+/* Large devices (laptops/desktops) */
+@media (min-width: 768px) and (max-width: 1139px) {
+
+.cstm-btn-seven{
+   width: 60%;
+   top: 110px;
+    left: 100px;
+}
+
+  }
+
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media (min-width: 1201px) {
+	
+}
